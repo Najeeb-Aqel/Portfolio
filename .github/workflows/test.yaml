@@ -25,6 +25,3 @@ jobs:
       - name: echo workspace
         run: echo $GITHUB_WORKSPACE
         shell: bash
-      - name: build flask app
-        run: |
-            flask run
